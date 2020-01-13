@@ -26,14 +26,15 @@
 
 - 콜백 연쇄
 - 체이닝을 이용한 해결
-  - rx, complatablefuture, flow ...
+  - rx, complatablefuture, flux/mono ...
   - map 형태의 체인
-  - flatMap 형태의 체인
+  - flatMap 형태의 체인 -> 또 다른 callback hell?
 - 문법적 지원으로 해결
   - async/await
   - coroutine
   - csp
 - akka?
+- kotlin flow?
 
 ## 함수형 프로그래밍
 - IO 모나드의 flatMap 연쇄와 모나드 문법
